@@ -1,0 +1,48 @@
+{
+  "BesitzerDialog.tsx": {
+    "vorname": "z. B. Anna",
+    "nachname": "z. B. Müller",
+    "email": "z. B. anna@beispiel.de",
+    "strasse": "z. B. Lindenallee",
+    "hausnummer": "z. B. 12a",
+    "plz": "z. B. 80331",
+    "ort": "z. B. München"
+  },
+  "HundeDialog.tsx": {
+    "hundename": "z. B. Bella",
+    "rasse": "z. B. Labrador",
+    "geburtsdatum": "Wann wurde der Hund geboren?",
+    "besonderheiten": "Allergien, Medikamente, Verhalten",
+    "besitzer": "Welcher Besitzer?"
+  },
+  "PlaetzeDialog.tsx": {
+    "bezeichnung": "z. B. Box 3",
+    "hinweise": "Besonderheiten des Platzes"
+  },
+  "BuchungenDialog.tsx": {
+    "besitzer": "Welcher Besitzer?",
+    "hund": "Welcher Hund?",
+    "anreise": "Wann reist der Hund an?",
+    "abreise": "Wann wird er abgeholt?",
+    "platz": "Welcher Platz?"
+  },
+  "AufenthaltsportraetsDialog.tsx": {
+    "hund": "Welcher Hund?",
+    "besitzer": "Welcher Besitzer?",
+    "titel": "z. B. Bellos Wochenende",
+    "charakterbeschreibung": "Wie ist der Charakter des Hundes?",
+    "lieblingsaktivitaet": "z. B. Ballspielen im Garten",
+    "besondere_momente": "Was war besonders schön?",
+    "erstellungsdatum": "Wann wurde es erstellt?"
+  },
+  "ReservierungsanfrageDialog.tsx": {
+    "vorname": "z. B. Anna",
+    "nachname": "z. B. Müller",
+    "email": "z. B. anna@beispiel.de",
+    "hundename": "z. B. Bello",
+    "rasse": "z. B. Labrador",
+    "wunsch_anreise": "Wann soll die Anreise sein?",
+    "wunsch_abreise": "Wann soll die Abreise sein?",
+    "nachricht": "Besondere Wünsche oder Hinweise"
+  }
+}
