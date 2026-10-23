@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "slug": "reservierungsanfrage",
+      "component": "Reservierungsanfrage",
+      "title": "Reservierungsanfrage",
+      "endpoints": [
+        {
+          "entity": "buchungen",
+          "op": "list",
+          "fields": [
+            "platz",
+            "anreise",
+            "abreise",
+            "status"
+          ],
+          "scope": "r.v_status in ['reserviert', 'eingecheckt'] and r.v_abreise >= today()",
+          "scope_description": "zeigt nur Buchungen mit Status reserviert oder eingecheckt, deren Abreise heute oder später ist",
+          "max_records": 500,
+          "availability_fields": [
+            "status"
+          ]
+        },
+        {
+          "entity": "reservierungsanfrage",
+          "op": "create",
+          "fields": [
+            "vorname",
+            "nachname",
+            "email",
+            "telefon",
+            "hundename",
+            "rasse",
+            "groesse",
+            "wunsch_anreise",
+            "wunsch_abreise",
+            "nachricht"
+          ],
+          "preset_fields": {
+            "status": "neu"
+          }
+        }
+      ]
+    }
+  ]
+}

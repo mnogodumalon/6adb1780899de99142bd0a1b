@@ -39,6 +39,12 @@ export type MessageFieldKey<E extends EntityKey> = E extends keyof MessageFields
 
 export const REQUIRED_MESSAGES: { [E in EntityKey]?: Partial<Record<MessageFieldKey<E>, string>> } = {
   // <custom:messages>
+  besitzer: { vorname: "Bitte den Vornamen eingeben.", nachname: "Bitte den Nachnamen eingeben." },
+  hunde: { hundename: "Bitte den Namen des Hundes eingeben.", besitzer: "Bitte einen Besitzer auswählen." },
+  plaetze: { bezeichnung: "Bitte eine Bezeichnung eingeben." },
+  buchungen: { besitzer: "Bitte einen Besitzer auswählen.", hund: "Bitte einen Hund auswählen.", anreise: "Bitte das Anreisedatum wählen.", abreise: "Bitte das Abreisedatum wählen.", platz: "Bitte einen Platz auswählen.", status: "Bitte einen Status wählen." },
+  aufenthaltsportraets: { hund: "Bitte einen Hund auswählen.", besitzer: "Bitte einen Besitzer auswählen.", titel: "Bitte einen Titel eingeben.", erstellungsdatum: "Bitte das Erstellungsdatum wählen." },
+  reservierungsanfrage: { vorname: "Bitte den Vornamen eingeben.", nachname: "Bitte den Nachnamen eingeben.", email: "Bitte die E-Mail-Adresse eingeben.", telefon: "Bitte die Telefonnummer eingeben.", hundename: "Bitte den Namen des Hundes eingeben.", rasse: "Bitte die Rasse des Hundes eingeben.", groesse: "Bitte die Größe des Hundes wählen.", wunsch_anreise: "Bitte die Wunsch-Anreise wählen.", wunsch_abreise: "Bitte die Wunsch-Abreise wählen.", status: "Bitte einen Status wählen." },
   // </custom:messages>
 };
 
